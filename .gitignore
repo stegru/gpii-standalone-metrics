@@ -1,0 +1,14 @@
+/node_modules/
+/output/
+
+filebeat.msm
+
+npm-debug.log
+*.bak
+
+Vagrantfile.local
+.vagrant/
+
+.idea/
+.vs/
+

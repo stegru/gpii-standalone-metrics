@@ -1,0 +1,48 @@
+{
+    "name": "gpii-standalone-metrics",
+    "description": "Standalone metrics capture.",
+    "version": "0.3.0",
+    "author": "GPII",
+    "bugs": "http://issues.gpii.net/browse/GPII",
+    "homepage": "http://gpii.net/",
+    "dependencies": {
+        "ffi": "^2.2.0",
+        "infusion": "^2.0.0",
+        "moment": "^2.22.2",
+        "ref": "^1.3.5",
+        "ref-array": "^1.2.0",
+        "ref-struct": "^1.1.0"
+    },
+    "devDependencies": {
+        "node-jqunit": "1.1.8",
+        "pkg": "^4.3.4"
+    },
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "gpii",
+        "accessibility",
+        "settings",
+        "fluid",
+        "IoC",
+        "Inversion of Control",
+        "configuration",
+        "evented"
+    ],
+    "main": "./index.js",
+    "engines": {
+        "node": ">=4.2.1"
+    },
+    "scripts": {
+        "start": "node iod.js"
+    },
+    "bin": "index.js",
+    "pkg": {
+        "targets": [
+            "node8-win-x86"
+        ],
+        "assets": [
+            "**/*js",
+            "**/*json"
+        ]
+    }
+}
